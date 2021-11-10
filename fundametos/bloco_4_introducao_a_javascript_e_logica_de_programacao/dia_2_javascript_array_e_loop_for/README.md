@@ -20,10 +20,10 @@ video usado como referência - https://www.youtube.com/watch?v=7bI4RVu4GH0
 
 usado como referência - https://pt.stackoverflow.com/questions/35202/como-saber-o-maior-valor-de-um-array
 
-## 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
+#### 6 - Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: "nenhum valor ímpar encontrado";
 
-## 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;
+#### 7 - Utilizando for , descubra qual o menor valor contido no array e imprima-o;
 
-## 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
+#### 8 - Utilizando for , crie um array que vá de 1 até 25 e imprima o resultado;
 
-## 9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
+#### 9 - Utilizando o array criado no exercício anterior imprima o resultado da divisão de cada um dos elementos por 2 .
