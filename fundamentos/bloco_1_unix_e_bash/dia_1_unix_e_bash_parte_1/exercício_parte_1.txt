@@ -31,10 +31,37 @@ mkdir backup2
 
 # 8 - Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2 .
 
+mv backup/trybe_backup.txt backup2
 
+# 9 - Apague a pasta backup.
 
-# 9 - Apague a pasta backup .
+rmdir backup
+
 # 10 - Renomeie a pasta backup2 para backup .
+
+mv backup2 backup
+
 # 11 - Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
-# 12 - Apague o diretório backup .
+
+- pwd
+ - ls -a
+
+# 12 - Apague o diretório backup.
+
+rm -rf backup (apaga um diretório que não está vazio)
+
 # 13 - Limpe o terminal.
+
+clear ( ou ctrl + l)
+
+# 14 - Mostre na tela as 5 primeiras skills do arquivo skills.txt .
+
+head -5 skills.txt
+
+# 15 - Mostre na tela as 4 últimas skills do arquivo skills.txt .
+
+tail -4rm skills.txt
+
+# 16 - Apague todos os arquivos que terminem em .txt .
+
+rm - rf *.txt
