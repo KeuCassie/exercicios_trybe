@@ -1,0 +1,49 @@
+# Parte II - Permissões
+
+### 1 - Navegue até a pasta unix_tests.
+
+cd unix_tests (percorrer todo o caminho até lá)
+
+### 2 - Rode o comando ls -l e veja quais as permissões dos arquivos.
+
+ls -l
+
+### 3 - Mude a permissão do arquivo bunch_of_things.txt para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando ls -l.
+
+ - cat >> skills2.txt (Adciona itens)
+ - sort skills2.txt
+
+### 4 - Conte quantas linhas tem o arquivo skills2.txt .
+
+wc -l skills2.txt 
+
+### 5 - Crie um arquivo chamado top_skills.txt usando o skills2.txt , contendo as 3 primeiras skills em ordem alfabética.
+
+cat skills2.txt | sort | head -3 > top_skills.txt
+
+### 6 - Crie um novo arquivo chamado phrases2.txt pelo terminal e adicione algumas frases de sua escolha.
+
+cat > phrases2.txt
+
+### 7 - Conte o número de linhas que contêm as letras br .
+
+rep -c br phrases2.txt
+
+### 8 - Conte o número de linhas que não contêm as letras br .
+
+grep -vc br phrases2.txt
+
+### 9 - Adicione dois nomes de países ao final do arquivo phrases2.txt .
+
+cat >> phrases2.txt
+
+### 10 - Crie um novo arquivo chamado bunch_of_things.txt com os conteúdos dos arquivos phrases2.txt e countries.txt
+
+cat phrases2.txt countries.txt > bunch_of_things.txt
+
+
+### 11 - Ordene o arquivo bunch_of_things.txt .
+
+sort -o bunch_of_things.txt bunch_of_things.txt
+
+### FIM DE EXERCICIO
