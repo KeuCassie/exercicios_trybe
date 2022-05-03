@@ -20,8 +20,12 @@ Tag p com o seguinte texto "Gerar oportunidade para pessoas";
 
 http://localhost:4545
 
-Acesse o arquivo missao_trybe.html e acrescente a tag <p> com o seguinte texto "Nosso negócio é GENTE! #VQV";
+# 5 - Acesse o arquivo missao_trybe.html e acrescente a tag <p> com o seguinte texto "Nosso negócio é GENTE! #VQV";
+
+<p>"Nosso negócio é GENTE! #VQV"</p>
+
 Obtenha o id do container httpd:2.4;
+
 Obtenha o Mounts através da propriedade Source que deve mostrar o volume desse container no Docker Host;
 Agora pare o container httpd:2.4;
 Exclua o seu container;
