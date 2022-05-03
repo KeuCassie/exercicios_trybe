@@ -24,7 +24,9 @@ http://localhost:4545
 
 <p>"Nosso negócio é GENTE! #VQV"</p>
 
-Obtenha o id do container httpd:2.4;
+# 6 - Obtenha o id do container httpd:2.4;
+
+docker ps (id)
 
 Obtenha o Mounts através da propriedade Source que deve mostrar o volume desse container no Docker Host;
 Agora pare o container httpd:2.4;
