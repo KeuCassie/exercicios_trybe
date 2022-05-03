@@ -1,0 +1,66 @@
+### Utilizando Containers - Docker
+
+# 1 - No Docker Hub, utilizando a caixa de busca ( "Search for great content" ), busque pela imagem da Distribuição Linux Debian ;
+
+- 
+
+# 2 - Uma vez que encontrar a imagem oficial, acesse-a (clicando em seu card) e verifique na página de detalhes, se existe algum comando para baixarmos a imagem localmente sem ter que criar um container para isso ;
+
+docker pull ubuntu
+
+# 3 - Baixe a imagem utilizando a tag : stable-slim , que é uma versão reduzida da distribuição;
+
+docker pull ubuntu:stable-slim
+
+# 4 - Após baixar a imagem para seu computador local, crie e execute um container no modo interativo utilizando essa imagem como referência (não esqueça referenciar a tag );
+
+docker container create -it ubuntu:stable-slim
+
+# 5 - No terminal, você deve conseguir rodar o comando cat /etc/*-release , que vai retornar os dados da distribuição Debian que está sendo rodada dentro do container ;
+
+mkdir backup
+
+# 6 - Encerre o terminal;
+
+exit
+
+# 7 - Dentro de unix_tests , crie um novo diretório chamado backup2 .
+
+mkdir backup2
+
+# 8 - Mova o arquivo trybe_backup.txt da pasta backup para a pasta backup2 .
+
+mv backup/trybe_backup.txt backup2
+
+# 9 - Apague a pasta backup.
+
+rmdir backup
+
+# 10 - Renomeie a pasta backup2 para backup .
+
+mv backup2 backup
+
+# 11 - Veja qual o path completo do diretório atual e liste todos os arquivos dentro dele.
+
+- pwd
+ - ls -a
+
+# 12 - Apague o diretório backup.
+
+rm -rf backup (apaga um diretório que não está vazio)
+
+# 13 - Limpe o terminal.
+
+clear ( ou ctrl + l)
+
+# 14 - Mostre na tela as 5 primeiras skills do arquivo skills.txt .
+
+head -5 skills.txt
+
+# 15 - Mostre na tela as 4 últimas skills do arquivo skills.txt .
+
+tail -4rm skills.txt
+
+# 16 - Apague todos os arquivos que terminem em .txt .
+
+rm - rf *.txt
