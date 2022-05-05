@@ -5,3 +5,5 @@
 PRIMARY KEY
 
 # 2 - Qual é o motivo de a coluna country_id não possuir nomes de country (país)? Ela é algum tipo de chave primária ou estrangeira?
+
+Porque é o número do identificador único da tabela de países. FOREIGN KEY (chave estrangeira)
