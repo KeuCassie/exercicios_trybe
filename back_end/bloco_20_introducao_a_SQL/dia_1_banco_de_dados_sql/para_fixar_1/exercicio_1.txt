@@ -13,3 +13,5 @@ PRIMARY KEY - Porque garante que o valor seja a chave primária da tabela, o ide
 FOREIGN KEY - Porque garante que o valor seja uma chave estrangeira da tabela e faça referência à chave primária de outra tabela.
 
 3 - A coluna address (endereço) possui uma constraint. Qual tipo de constraint seria interessante ser aplicado a ela para que sempre exista um valor na coluna quando uma nova linha for criada?
+
+NOT NULL.
