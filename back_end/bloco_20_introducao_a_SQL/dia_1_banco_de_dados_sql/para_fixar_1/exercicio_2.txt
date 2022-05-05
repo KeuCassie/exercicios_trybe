@@ -1,0 +1,7 @@
+### Temos aqui uma outra tabela:
+
+# 1 - Que tipo de constraint a coluna city_id possui?
+
+PRIMARY KEY
+
+# 2 - Qual é o motivo de a coluna country_id não possuir nomes de country (país)? Ela é algum tipo de chave primária ou estrangeira?
